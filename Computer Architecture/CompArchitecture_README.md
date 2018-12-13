@@ -34,8 +34,7 @@ add $t1,$t0,13
 add $t2,$t1,$s1     
 sub $s0,$t2,$s0    
 
-(4) cache_simulator.c -- This program written in C simulates how a cache of size 256 will store a series of memory addresses in a   
-provided text document. The simulator works for a direct-mapped cache, 2-way associative cache and a 4-way associative cache. The simulator also provides you the option of using Belady's algorithm or the Least-Recently-Used algorithm for replacement in the cache.   
+(4) cache_simulator.c -- This program written in C simulates how a cache of size 256 will store a series of memory addresses in a provided text document.    The simulator works for a direct-mapped cache, 2-way associative cache and a 4-way associative cache. The simulator also provides you the option of using Belady's algorithm or the Least-Recently-Used algorithm for replacement in the cache.   
 
 Command line arguments: N-way(associativity), Belady/LRU, filename.txt    
 
