@@ -13,27 +13,27 @@ number of cols in matrix 2.
 converts it to a series of mips instructions. 
 Example output: 
 
-bash$ ./a.out
-Please enter a valid C assignment statement:
-f = g + h - 42;
-The MIPS pseudocode is:
-add $t0,$s1,$s2
-sub $s0,$t0,42
-bash$ ./a.out
-Please enter a valid C assignment statement:
-x = q - 12 + j;
-The MIPS pseudocode is:
-sub $t0,$s1,12
-add $s0,$t0,$s2
-bash$ ./a.out
-Please enter a valid C assignment statement:
-a = x - y + 13 + x - a;
-The MIPS pseudocode is:
-sub $t0,$s1,$s2
-add $t1,$t0,13
-add $t2,$t1,$s1
-sub $s0,$t2,$s0
-
+bash$ ./a.out         
+Please enter a valid C assignment statement:     
+f = g + h - 42;      
+The MIPS pseudocode is:      
+add $t0,$s1,$s2      
+sub $s0,$t0,42     
+bash$ ./a.out     
+Please enter a valid C assignment statement:      
+x = q - 12 + j;        
+The MIPS pseudocode is:        
+sub $t0,$s1,12    
+add $s0,$t0,$s2    
+bash$ ./a.out     
+Please enter a valid C assignment statement:     
+a = x - y + 13 + x - a;     
+The MIPS pseudocode is:     
+sub $t0,$s1,$s2     
+add $t1,$t0,13    
+add $t2,$t1,$s1     
+sub $s0,$t2,$s0    
+  
 
 
 
