@@ -1,4 +1,4 @@
-package hw7;
+package CampusMap;
 
 import java.lang.Math;
 import java.io.IOException;
