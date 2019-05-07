@@ -1,4 +1,4 @@
-package hw4;
+package GraphADT;
 
 
 public class Edge<T,K> {
